@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://sp.hsjl.org/sitemap.xml
