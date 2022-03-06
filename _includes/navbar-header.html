@@ -1,3 +1,5 @@
+{% include calculate_relative_base.html %}
+{% include escape-404.html %}
 
 <nav id="navbar-header" class="navbar navbar-expand-lg">
     <div class="container">
@@ -20,7 +22,7 @@
                         <a class="nav-link" href="/">홈 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">자세히</a>
+                        <a class="nav-link" href="{{ relativebase }}_pages/about.html">자세히</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -28,9 +30,9 @@
                             영감의 시
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="special-dishes.html">시로 말한다</a>
-                            <a class="dropdown-item" href="special-dishes.html">시의 여인</a>
-                            <a class="dropdown-item" href="special-dishes.html">영감의 시 2</a>
+                            <a class="dropdown-item" href="{{ relativebase }}_pages/spiritual-poem.html">시로 말한다</a>
+                            <a class="dropdown-item" href="{{ relativebase }}_pages/spiritual-poem.html">시의 여인</a>
+                            <a class="dropdown-item" href="{{ relativebase }}_pages/spiritual-poem.html">영감의 시 2</a>
                         </div>
                     </li>
                 </div>
@@ -41,11 +43,11 @@
             </a>
             <ul class="navbar-nav d-flex justify-content-between">
                 <div class="d-flex flex-lg-row flex-column">
-                    <!--li class="nav-item active">
-                        <a class="nav-link" href="menu.html">Menu</a>
-                    </li-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ relativebase }}_pages/show-video.html">영상보기</a>
+                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="team.html">저서</a>
+                        <a class="nav-link" href="{{ relativebase }}_pages/another-books.html">저서</a>
                     </li>
 
                     <!--li class="nav-item dropdown">
