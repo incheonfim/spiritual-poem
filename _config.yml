@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   정명석 시인의 다른 서적 - 영감의 시 1/2, 시로 말한다, 시의 여인, 행복은 온다
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://sp.hsjl.org" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: HSJL_SP
 #github_username:  jekyll
 
 # Paginate
